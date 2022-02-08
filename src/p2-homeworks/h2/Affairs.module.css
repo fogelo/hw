@@ -1,3 +1,50 @@
 .someClass {
 
 }
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100px;
+    opacity: 0.85;
+    margin-left: 5px;
+    border-radius: 5px;
+    line-height: 2;
+}
+
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_1 {
+    background-color: #4CAF50;
+}
+
+.button_2 {
+    background-color: #008CBA;
+}
+
+.button_4 {
+    background-color: #f44336;
+}
+
+.button_3 {
+    background-color: #cb63ff;
+    color: white;
+}
+
+
+.button:hover {
+    color: white;
+    opacity: 1;
+    font-size: 18px;
+}
