@@ -5,3 +5,16 @@
 .error {
     border: 1px solid red;
 }
+
+.inputWrapper {
+    margin-top: 10px;
+}
+
+.inputWrapper>* {
+    margin-right: 10px;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+}
