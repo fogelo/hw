@@ -13,15 +13,15 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 ) => {
-    const inputClass = s.error // need to fix with (?:)
+    const inputError = s.error // need to fix with (?:)
 
     return (
-        <div>
+        <div className={s.HW3}>
             <div className={s.inputWrapper}>
                 <input value={name} onChange={setNameCallback}
-                       className={error ? inputClass : ''}/>
-                <button onClick={addUser}>add</button>
-                <span>{totalUsers}</span>
+                       className={`${s.input} ${error ? inputError : ''}`}/>
+                <button className={s.addButton} onClick={addUser}>ADD</button>
+                <span className={s.totalUsers}>{totalUsers}</span>
             </div>
             <span className={s.errorMessage}>{error ? error : ''}</span>
         </div>
