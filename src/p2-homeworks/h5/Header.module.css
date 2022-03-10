@@ -1,0 +1,44 @@
+.navbar {
+    margin-top: 15px;
+    background: #ccc;
+    overflow: hidden;
+    position: relative;
+    left: -95%;
+    transition-duration: 0.5s;
+}
+
+.navbar:hover {
+    left: 0;
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+.activeClassName {
+    background-color: #999;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
