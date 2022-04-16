@@ -1,0 +1,10 @@
+.time {
+    display: inline-block;
+}
+
+.dateShow {
+    visibility: visible;
+}
+.dateHidden {
+    visibility: hidden;
+}
