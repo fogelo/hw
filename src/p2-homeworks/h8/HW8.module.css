@@ -1,0 +1,9 @@
+.people {
+    border: 1px solid;
+    width: 200px;
+}
+.person {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
