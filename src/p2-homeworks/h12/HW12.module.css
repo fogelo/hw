@@ -21,3 +21,19 @@
 .some-text {
     color: darkslateblue;
 }
+
+.khaki {
+    background: khaki;
+}
+
+.khaki-text {
+    color: #390000;
+}
+
+.blue {
+    background: #61dafb;
+}
+
+.blue-text {
+    color: #ff0000;
+}
