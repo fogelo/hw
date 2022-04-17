@@ -1,6 +1,6 @@
 .default {
     margin: 5px 0;
-    width: 110px;
+    min-width: 100px;
     display: inline-block;
     font-weight: bold;
     color: #fff;
