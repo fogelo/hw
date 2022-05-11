@@ -3,6 +3,7 @@ import {Navigate, Route, Routes} from 'react-router-dom';
 import PreJunior from './pages/PreJunior';
 import Error404 from './pages/Error404';
 import Junior from './pages/Junior';
+import JuniorPlus from './pages/Junior-plus';
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     // add paths
@@ -23,6 +24,7 @@ function RoutesComponent() {
                 />
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={'/junior'} element={<Junior/>}/>
+                <Route path={'/junior-plus'} element={<JuniorPlus/>}/>
 
                 {/*// add routes*/}
 
